@@ -6,15 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
+    <script src="https://kit.fontawesome.com/571e2747ef.js" crossorigin="anonymous"></script>
     <script src="./assets/js/index.js" defer></script>
     <title>B2B</title>
 </head>
 
 <body>
 
-    <div class="quote-container">
-        <h2>Just testing, here will be quote</h2>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text-area">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Here will be quote</span>
+        </div>
+        <div class="quote-author">
+            <span id="author">Some guy</span>
+        </div>
+        <div class="quote-button-area">
+            <button class="twitter-button" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="newQuote">Get new quote</button>
+        </div>
     </div>
+
+    <div class="loader" id="loader"></div>
 
 </body>
 
